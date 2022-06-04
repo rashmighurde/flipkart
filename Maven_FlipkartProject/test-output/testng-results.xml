@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="4" total="7" passed="2" failed="1" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-06-03T18:43:44 IST" name="Suite" finished-at="2022-06-03T18:44:30 IST" duration-ms="45773">
+    <groups>
+    </groups>
+    <test started-at="2022-06-03T18:43:44 IST" name="MicrosoftEdge" finished-at="2022-06-03T18:43:44 IST" duration-ms="10">
+    </test> <!-- MicrosoftEdge -->
+    <test started-at="2022-06-03T18:43:44 IST" name="ChromeTest" finished-at="2022-06-03T18:44:30 IST" duration-ms="45773">
+      <class name="testclasses.VerifyUserCanSearchProductThroughExcel">
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:testclasses.VerifyUserCanSearchProductThroughExcel@4ec4f3a0]" started-at="2022-06-03T18:43:45 IST" name="beforeClass" finished-at="2022-06-03T18:43:45 IST" duration-ms="9" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method is-config="true" signature="browserMethod(java.lang.String)[pri:0, instance:testclasses.VerifyUserCanSearchProductThroughExcel@4ec4f3a0]" started-at="2022-06-03T18:43:45 IST" name="browserMethod" finished-at="2022-06-03T18:44:25 IST" duration-ms="40483" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserMethod -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:testclasses.VerifyUserCanSearchProductThroughExcel@4ec4f3a0]" started-at="2022-06-03T18:44:25 IST" name="beforeMethod" finished-at="2022-06-03T18:44:25 IST" duration-ms="33" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="VerifyUserCanLogin()[pri:0, instance:testclasses.VerifyUserCanSearchProductThroughExcel@4ec4f3a0]" started-at="2022-06-03T18:44:25 IST" name="VerifyUserCanLogin" finished-at="2022-06-03T18:44:27 IST" duration-ms="2350" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyUserCanLogin -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:testclasses.VerifyUserCanSearchProductThroughExcel@4ec4f3a0]" started-at="2022-06-03T18:44:27 IST" name="afterMethod" finished-at="2022-06-03T18:44:27 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:testclasses.VerifyUserCanSearchProductThroughExcel@4ec4f3a0]" started-at="2022-06-03T18:44:27 IST" name="beforeMethod" finished-at="2022-06-03T18:44:27 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="VerifyUserCanSearchProduct()[pri:1, instance:testclasses.VerifyUserCanSearchProductThroughExcel@4ec4f3a0]" started-at="2022-06-03T18:44:27 IST" name="VerifyUserCanSearchProduct" finished-at="2022-06-03T18:44:30 IST" depends-on-methods="testclasses.VerifyUserCanSearchProductThroughExcel.VerifyUserCanLogin" duration-ms="2500" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyUserCanSearchProduct -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:testclasses.VerifyUserCanSearchProductThroughExcel@4ec4f3a0]" started-at="2022-06-03T18:44:30 IST" name="afterMethod" finished-at="2022-06-03T18:44:30 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:testclasses.VerifyUserCanSearchProductThroughExcel@4ec4f3a0]" started-at="2022-06-03T18:44:30 IST" name="beforeMethod" finished-at="2022-06-03T18:44:30 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="VerifyUserCanAddtocartProduct()[pri:3, instance:testclasses.VerifyUserCanSearchProductThroughExcel@4ec4f3a0]" started-at="2022-06-03T18:44:30 IST" name="VerifyUserCanAddtocartProduct" finished-at="2022-06-03T18:44:30 IST" duration-ms="330" status="FAIL">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//button[@class="_2KpZ6l _2U9uOA _3v1-ww"]"}
+  (Session info: chrome=102.0.5005.63)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.1.3', revision: '7b1ebf28ef'
+System info: host: 'LAPTOP-0QTDGNSP', ip: '192.168.98.24', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [f2c9c857013fef4b993bb8138a8fce0b, findElement {using=xpath, value=//button[@class="_2KpZ6l _2U9uOA _3v1-ww"]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 102.0.5005.63, chrome: {chromedriverVersion: 102.0.5005.61 (0e59bcc00cc4..., userDataDir: C:\Users\Rashmi\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:55095}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:55095/devtoo..., se:cdpVersion: 102.0.5005.63, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: f2c9c857013fef4b993bb8138a8fce0b]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//button[@class="_2KpZ6l _2U9uOA _3v1-ww"]"}
+  (Session info: chrome=102.0.5005.63)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.1.3', revision: '7b1ebf28ef'
+System info: host: 'LAPTOP-0QTDGNSP', ip: '192.168.98.24', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [f2c9c857013fef4b993bb8138a8fce0b, findElement {using=xpath, value=//button[@class="_2KpZ6l _2U9uOA _3v1-ww"]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 102.0.5005.63, chrome: {chromedriverVersion: 102.0.5005.61 (0e59bcc00cc4..., userDataDir: C:\Users\Rashmi\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:55095}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:55095/devtoo..., se:cdpVersion: 102.0.5005.63, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: f2c9c857013fef4b993bb8138a8fce0b
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:567)
+at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
+at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:385)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:377)
+at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:70)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:39)
+at jdk.proxy2/jdk.proxy2.$Proxy20.click(Unknown Source)
+at pomclasses.Product_DetailsPage.VerifyProductDisplayedOrNotandAddedToCart(Product_DetailsPage.java:42)
+at testclasses.VerifyUserCanSearchProductThroughExcel.VerifyUserCanAddtocartProduct(VerifyUserCanSearchProductThroughExcel.java:63)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.access$000(SuiteRunner.java:28)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:418)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:833)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyUserCanAddtocartProduct -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:testclasses.VerifyUserCanSearchProductThroughExcel@4ec4f3a0]" started-at="2022-06-03T18:44:30 IST" name="afterMethod" finished-at="2022-06-03T18:44:30 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:testclasses.VerifyUserCanSearchProductThroughExcel@4ec4f3a0]" started-at="2022-06-03T18:44:30 IST" name="afterClass" finished-at="2022-06-03T18:44:30 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- testclasses.VerifyUserCanSearchProductThroughExcel -->
+    </test> <!-- ChromeTest -->
+  </suite> <!-- Suite -->
+</testng-results>

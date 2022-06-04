@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite" parallel="tests" thread-count="3">
+  <test name="ChromeTest">
+  <parameter name="Browser" value="chrome"/>
+  <groups>
+  <run>
+  <exclude name="group1"></exclude>
+  </run>
+  </groups>
+    <classes>
+      <class name="testclasses.VerifyUserCanBuyProduct"/>
+      <class name="testclasses.VerifyUserCanSearchProductThroughExcel"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  <test name="MicrosoftEdge">
+  <parameter name="Browser" value="MicrosoftEdge"/>
+  <groups>
+  <run>
+  <exclude name="group1"></exclude>
+  </run>
+  </groups>
+     <classes>
+      <class name="testclasses.VerifyUserCanBuyProduct"/>
+    </classes>
+  </test> <!-- Test -->  
+</suite> <!-- Suite -->
